@@ -1,0 +1,15 @@
+{
+  "scope": "x_crli_squirrel",
+  "scopeId": "4ea49ea28f8447dc9e14c1b33913cb48",
+  "name": "Squirrel Scramble",
+  "metadataDir": "src/plugin-xmls",
+  "appOutputDir": "dist-metadata/app",
+  "packageSourceCodeOnInstance": true,
+  "staticContent": {
+    "assets": {
+      "./public/**": {
+        "publicPath": "[$config.aiux.basename]/public"
+      }
+    }
+  }
+}

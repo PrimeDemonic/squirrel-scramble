@@ -1,0 +1,11 @@
+allowBuilds:
+  # The four the template's package.json#pnpm.onlyBuiltDependencies names (pnpm 11+ ignores that field).
+  '@parcel/watcher': true
+  '@swc/core': true
+  libxmljs2: true
+  # The September PoC needed esbuild's postinstall too.
+  esbuild: true
+  # Not on the template's list; left off unless a build needs them.
+  onnxruntime-node: false
+  protobufjs: false
+  sharp: false

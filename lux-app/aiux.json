@@ -1,0 +1,11 @@
+{
+  "name": "Squirrel Scramble",
+  "basename": "scramble-v7",
+  "landing": "/v7/play",
+  "development": {
+    "token": ""
+  },
+  "build": {
+    "exclude": ["**/*.test.js", "**/test/**", "tests/**", "**/*.md"]
+  }
+}
